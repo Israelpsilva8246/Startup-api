@@ -8,7 +8,7 @@ import java.util.Objects;
 @Entity
 @Table(name = "permission")
 public class Permission implements GrantedAuthority {
-
+    //td(id:01; name: teste;)
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
